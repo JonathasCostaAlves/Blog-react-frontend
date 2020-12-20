@@ -1,0 +1,45 @@
+footer {
+    background-color: var(--background--primary);
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.brand {
+    font-size: 25px;
+    line-height: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+.brand a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.brand .wordCoffe{
+  color: var(--color-coffe);
+  font-weight: 700;
+}
+.brand .wordsMore{
+    font-size: 15px;
+}
+
+footer:last-child a{
+    color:#fff;
+    transition: color var(--transition-link) ;
+}
+footer:last-child a:hover{
+    color: rgb(163, 158, 158);
+    text-decoration: none;
+}
+
+footer > .social-media a{
+    font-size: 30px;
+    color: #fff;
+    transition: color var(--transition-link);
+}
+

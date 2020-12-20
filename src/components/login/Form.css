@@ -1,0 +1,123 @@
+.form-component{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
+    width: 55vw;
+    height: 50vh;
+    border-radius: 20px;
+    background-color: var( --background--primary);  
+    margin-top: 10vh;
+    overflow: hidden;
+    
+}
+.form-component  img{
+    width: 13vw;
+    height: 13vw;
+}
+.divider{
+    height: 30vh;
+    border:solid thin white
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    color: #fff;
+    font-size: 18px;
+    border-radius:20px ;
+}
+
+form input{
+    width: 27vw !important;
+    
+}
+
+
+.btn-custon{
+    background-color: transparent;
+    border: #fff solid 2px;
+    border-radius:  20px;
+    align-self: center;
+    margin-left: calc(60vw /2.9);
+    color: #fff;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 5px;
+    height: 6vh;
+    width: 12vh;
+    transition: background-color var(--transition-link);
+}
+.btn-custon:hover {
+    background-color: #fff;
+    border:none;
+    color:var(--background--primary)
+}
+.btn-custon:active , .btn-custon:focus{
+    outline: none;  
+}
+
+.passWord{
+    width: 23vw !important;
+}
+.btn-outline-secondary{
+    background-color:transparent;
+    transition: background-color var(--transition-link);
+    width: 4vw;
+}
+.btn-outline-secondary:hover{
+    background-color: #fff;
+    box-sizing: border-box;
+    color:var(--background--primary)
+}
+
+.msgError{
+    font-size: 14px;
+    margin-top: -10px;
+    width: 25vw;
+    display:none
+}
+.modalWarning{
+    border-radius: 20px;
+}
+.modalWarning button{
+    background-color: var(--background--primary);
+    border-radius:  20px;  
+    font-weight: bold;  
+}
+
+.modalWarning button:hover{
+    background-color: transparent !important;
+    color: var(--background--primary);
+    background-color: var(--background--primary);
+    font-weight: bold !important;     
+}
+
+.modalWarning button:active, .modalWarning button:focus {
+    outline: none !important;
+}
+.modalUserError button{
+    border-radius: 20px;  
+}
+.modalUserError button:hover{
+    background-color: transparent !important ;
+    color: #dd7973;
+    font-weight: bold;
+    border: #dd7973 solid 4px;
+}
+.link-home {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    align-self: flex-start;
+    transition: color var(--link-hover);
+}
+
+.link-home:hover {
+    text-decoration: none;  
+    color: var(--link-hover);  
+}

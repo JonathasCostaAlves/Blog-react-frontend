@@ -1,0 +1,20 @@
+:root{
+   --background--primary:#091F4B;
+   --color-coffe: #4B3621;
+   --height-footer:120px;
+   --transition-link:.3s;
+   --link-hover: rgb(163, 158, 158);
+   --height-contact:120px;
+   --height-header:350px;
+   --nav-size: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap')
+}
+
+
+
+
