@@ -47,9 +47,8 @@
     transition: backgroud-color var(--transition-link);
 }
 .dashboard .nav li:hover{
-    color: var(--background--primary);
-    background: linear-gradient(93deg, #091f4b 0%, #a0a3de 100%);
-    
+    background: linear-gradient(to right, #373b44, #4286f4);
+    font-weight: bold;    
 }
 .dashboard .nav a{
     color: #fff;
@@ -62,5 +61,5 @@
 
 .dashboard .main {
     grid-area: main;
-    background-color: #fff;
+    background-color: red;
 }
