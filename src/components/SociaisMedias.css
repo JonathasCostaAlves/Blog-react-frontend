@@ -1,0 +1,11 @@
+.social-media{
+    font-size: 30px;
+    align-self: center;
+}
+.social-media a{
+    color: #fff;
+    transition: color var(--transition-link);
+}
+.social-media a:hover{
+    color: rgb(163, 158, 158);
+}

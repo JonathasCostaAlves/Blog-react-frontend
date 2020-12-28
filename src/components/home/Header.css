@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+header > .contact-banner{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    height: var(--height-contact);
+}
+header > .contact-banner > .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    font-size: 20px;
+   
+}
+
+header > .social-media a{
+    margin-top: 0;
+    color: #fff;
+    transition: color var(--transition-link);
+   
+}
+
+.header-home{
+    display: flex;
+    align-items: center;
+    background-color: var(--background--primary);
+    justify-content: center;
+    height:var( --height-header) ;
+}
+
+.profile{
+    width: 300px;
+    height: 300px;
+}
+header .brand {
+    font-size: 70px;
+    line-height: 48px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.brand a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.brand .wordCoffe{
+  color: var(--color-coffe);
+  font-weight: 700;
+}
+header .brand .wordsMore{
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+header:last-child a{
+    color:#fff;
+    transition: color var(--transition-link) ;
+}
+header:last-child a:hover{
+    color: rgb(163, 158, 158);
+    text-decoration: none;
+}
+.nav-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: var(--background--primary);
+    font-size: var(--nav-size);
+
+}
+
+.nav-header a{
+    color: #fff;
+    text-decoration: none;
+    transition: color var(--transition-link);
+}
+.nav-header a:hover{
+    color:var(--link-hover);
+}

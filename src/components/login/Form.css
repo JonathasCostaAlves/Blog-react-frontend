@@ -9,7 +9,6 @@
     background-color: var( --background--primary);  
     margin-top: 10vh;
     overflow: hidden;
-    
 }
 .form-component  img{
     width: 13vw;
@@ -116,9 +115,9 @@ form input{
     align-self: flex-start;
     transition: color var(--link-hover);
 }
-
+/* 
 .link-home:hover {
     text-decoration: none;  
     color: var(--link-hover);  
     
-}
+} */

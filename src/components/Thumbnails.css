@@ -1,0 +1,18 @@
+.thumbnails{
+    overflow: hidden;
+    margin: 20px auto 100px auto;    
+    width: 450px;
+    height: 400px;
+}
+
+ h3{
+    font-size: 20px;
+    margin:6px;
+}
+.thumbnails a {
+    color: rgba(0, 0, 0, 0.76);
+    text-decoration: none;
+}
+.thumbnails a:hover{
+    color: black;
+}
