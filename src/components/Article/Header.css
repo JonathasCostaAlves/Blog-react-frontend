@@ -1,0 +1,20 @@
+.header-article{
+    background-color: var(--background--primary);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.brand-article p{
+    font-size: 35px;
+    line-height: 15px;
+}
+.brand-article .wordCoffe{
+    line-height: 15px;
+    font-size: 35px;
+}
+.brand-article .wordsMore{
+    line-height: 28px;
+    font-size: 17px !important;
+}

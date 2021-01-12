@@ -5,9 +5,6 @@ import Thumbnails from "../Thumbnails"
 import {Api} from '../sources/api/api'
 
 
-
-
-
 export default class Content extends Component {
     state = {
         articles: [],
@@ -18,7 +15,6 @@ export default class Content extends Component {
         const response = await Api.get('')
         console.log(response.data[1].src)
         this.setState({ articles: response.data})
-
     }
 
   

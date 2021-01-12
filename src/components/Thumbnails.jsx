@@ -9,7 +9,6 @@ function eventcapture(e){
         return
     }
     localStorage.setItem('id',e.target.id )
-    console.log(e.target.id)
 }
 
 export default props => 
