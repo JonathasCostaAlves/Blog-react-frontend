@@ -17,11 +17,9 @@ export default class Article extends Component{
 
         const id = localStorage.getItem('id')
         const title = localStorage.getItem('title')
-        let data
 
-        if(id !== null && id !=="" ){        
-            console.log('ID: '+ id)
-            
+        if(id !== null && id !=="" ){   
+
             const article = await  ApiArticles( `http://localhost:3001/article/${id}`)
 
             this.setState({
@@ -31,6 +29,7 @@ export default class Article extends Component{
             })                                          
         }
         if(title !== null && title !== ""){
+            
             const article = await  ApiArticles( `http://localhost:3001/article?title=${title}`)
 
             this.setState({

@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import './Content.css'
-import Image from '../sources/imgs/thumbnail.png'
 import Thumbnails from "../Thumbnails"
 import {Api} from '../sources/api/api'
 
@@ -13,7 +12,6 @@ export default class Content extends Component {
 
     async componentDidMount() {
         const response = await Api.get('')
-        console.log(response.data[1].src)
         this.setState({ articles: response.data})
     }
 
